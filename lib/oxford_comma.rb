@@ -14,8 +14,6 @@ def oxford_comma(array)
           string1 << "#{x}, "
         end
       end
-      array.each do |x|
-        string1 << "#{x}, "
     end
     return string1
 end
